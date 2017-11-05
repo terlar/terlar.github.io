@@ -1,225 +1,221 @@
 <!doctype html>
 <html lang='en'>
 <head>
+	<meta charset='utf-8'/>
+	<title>Terje Larsen</title>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+	<style type='text/css'>
+	* {
+		box-sizing: border-box;
+	}
 
-<meta charset='utf-8'/>
-<title>Terje Larsen</title>
-<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
-<style type='text/css'>
-  * {
-    box-sizing: border-box;
-  }
+	html, body {
+		background: #ecf0f1;
+		color: #263238;
+	}
 
-  html, body {
-    background: #ecf0f1;
-    color: #263238;
-  }
+	body {
+		font-size: 100%;
+		font-family: 'Merriweather', 'Source Serif Pro', 'Liberation Serif', 'Linux Libertine', 'Garamond', serif;
+		margin: 0 auto;
+		width: 60em;
+		padding: 1em;
+		margin-top: 1em;
+	}
 
-  body {
-    font-size: 100%;
-    font-family: 'Merriweather', 'Source Serif Pro', 'Liberation Serif', 'Linux Libertine', 'Garamond', serif;
-    margin: 0 auto;
-    width: 60em;
-    padding: 1em;
-    margin-top: 1em;
-  }
+	@media only screen and (min-width: 1024px) {
+		main {
+			margin: 1cm auto;
+			width: 21cm;
+			min-height: 29.7cm;
+			padding: 2cm;
+			background: #fff;
+			box-shadow: 0 4px 5px rgba(75, 75, 75, .2);
+		}
+	}
 
-  @media only screen and (min-width: 1024px) {
-    main {
-      margin: 1cm auto;
-      width: 21cm;
-      min-height: 29.7cm;
-      padding: 2cm;
-      background: #fff;
-      box-shadow: 0 4px 5px rgba(75, 75, 75, .2);
-    }
-  }
+	@media print {
+		section {
+			page-break-inside: avoid;
+		}
+	}
 
-  @media print {
-    section {
-      page-break-inside: avoid;
-    }
-  }
+	header {
+		text-align: center;
+	}
+	header ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
 
-  header {
-    text-align: center;
-  }
-  header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+	a {
+		color: #263238;
+		border-bottom: 1px dashed #ccc;
+		text-decoration: none;
+	}
 
-  a {
-    color: #263238;
-    border-bottom: 1px dashed #ccc;
-    text-decoration: none;
-  }
+	h1, h2, h3, p, dl, ul, ol {
+		margin: 0 0 1rem 0;
+	}
 
-  h1, h2, h3, p, dl, ul, ol {
-    margin: 0 0 1rem 0;
-  }
+	h1 {
+		font-size: 1.75em;
+		font-weight: 400;
+	}
 
-  h1 {
-    font-size: 1.75em;
-    font-weight: 400;
-  }
+	h2 {
+		border-bottom: 1px solid #ccc;
+		font-size: 1.25em;
+		margin-top: 1rem;
+		margin-bottom: .25rem;
+	}
 
-  h2 {
-    border-bottom: 1px solid #ccc;
-    font-size: 1.25em;
-    margin-top: 1rem;
-    margin-bottom: .25rem;
-  }
+	h3 {
+		margin: 0;
+		font-weight: normal;
+		font-size: 1em;
+		font-style: italic;
+	}
 
-  h3 {
-    margin: 0;
-    font-weight: normal;
-    font-size: 1em;
-    font-style: italic;
-  }
+	section summary {
+		clear: both;
+		font-weight: 600;
+		cursor: pointer;
+	}
+	section summary time {
+		float: right;
+		font-weight: 200;
+	}
 
-  section summary {
-    clear: both;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  section summary time {
-    float: right;
-    font-weight: 200;
-  }
-
-  details summary::-webkit-details-marker { display:none; }
-</style>
-
+	details summary::-webkit-details-marker { display:none; }
+	</style>
 </head>
 <body>
+	<main class='page' itemscope itemtype='http://schema.org/Person'>
+		<header>
+			<h1 itemprop='name'>Terje Larsen</h1>
+			<ul>
+				<li><a href='https://terlar.github.io' itemprop='url'>terlar.github.io</a></li>
+				<li><a href='mailto:terlar@gmail.com' itemprop='email'>terlar@gmail.com</a></li>
+				<li><a href='https://github.com/terlar' itemprop='sameAs'>github.com/terlar</a></li>
+			</ul>
+		</header>
 
-<main class='page' itemscope itemtype='http://schema.org/Person'>
-  <header>
-    <h1 itemprop='name'>Terje Larsen</h1>
-    <ul>
-      <li><a href='https://terlar.github.io' itemprop='url'>terlar.github.io</a></li>
-      <li><a href='mailto:terlar@gmail.com' itemprop='email'>terlar@gmail.com</a></li>
-      <li><a href='https://github.com/terlar' itemprop='sameAs'>github.com/terlar</a></li>
-    </ul>
-  </header>
+		<section class='summary'>
+			<h2>Summary</h2>
+			<p>Programming and problem solving is one of my great passions in life, if
+				I am presented with a problem I will eagerly put my full focus on the
+				problem until a solution is reached. I have a decade of professional
+				experience working for companies doing web development with focus on
+				e-commerce and most recently classifieds.</p>
 
-  <section class='summary'>
-    <h2>Summary</h2>
-    <p>Programming and problem solving is one of my great passions in life, if
-      I am presented with a problem I will eagerly put my full focus on the
-      problem until a solution is reached. I have a decade of professional
-      experience working for companies doing web development with focus on
-      e-commerce and most recently classifieds.</p>
-
-    <p>I am mostly developing code in ruby and go, however I don't see a
-      problem with developing in any other language, the motto is: use the best
-      tool available.</p>
-  </section>
-  <section class='skills'>
-    <h2>Technical Skills</h2>
-    <dl>
-      <dt>Language:</dt>
-      <dd>Ruby, Go, Java, Python, JavaScript, C#, PHP</dd>
-      <dt>Database:</dt>
-      <dd>MongoDB, ElasticSearch, DynamoDB, MySQL, Redis</dd>
-      <dt>Framework:</dt>
-      <dd>Thrift, Sinatra, RoR, Express, AngularJS, Magento, WordPress</dd>
-      <dt>Tool:</dt>
-      <dd>Git, Unix (Linux/BSD/OSX), Docker, Ansible, Puppet, Amazon Web Services, Bash</dd>
-    </dl>
-  </section>
-  <section class='experiences'>
-    <h2>Experiences</h2>
-    <details open>
-      <summary>
-        Saltside, Software Developer
-        <time>2011 - current</time>
-      </summary>
-      <h3>Current</h3>
-      <ul>
-        <li>Main contributor of the core API and backend services.</li>
-        <li>Site reliability engineering.</li>
-        <li>Daily work with containers, continuous delivery and automated testing.</li>
-        <li>Create tools and utilities that makes the work more efficient.</li>
-        <li>Running a distributed system across four markets with millions of users.</li>
-        <li>Deploy service to orchestrate different deploys from various clients (Slack, CLI, Web).</li>
-      </ul>
-      <h3>Previous</h3>
-      <ul>
-        <li>Designed and implemented API:s both using JSON and thrift.</li>
-        <li>Worked in a small team to rewrite the system to a service oriented architecture.</li>
-        <li>Lead developer for the mobile web application.</li>
-        <li>Lead developer for the backend platform and API.</li>
-        <li>Extracted the mobile web application from the monolith increasing the ability to deliver new features.</li>
-        <li>Worked in a small team to deliver a monolithic classifieds site.</li>
-      </ul>
-    </details>
-    <details open>
-      <summary>
-        Firma Terje Larsen, Web Developer
-        <time>2010 - 2015</time>
-      </summary>
-      <ul>
-        <li>Developing modules and adjusting templates to increase sales in a web shop built with Magento.</li>
-        <li>Full-stack development of simpler company websites.</li>
-        <li>Customization and feature development for WordPress.</li>
-      </ul>
-    </details>
-    <details open>
-      <summary>
-        Webbhuset, Web Developer
-        <time>2009 - 2011</time>
-      </summary>
-      <ul>
-        <li>Developed modules for the e-commerce system Magento.</li>
-        <li>Built bridges between Magento and several ERP-systems (such as Navision).</li>
-        <li>Worked with markup and CSS.</li>
-      </ul>
-    </details>
-    <details open>
-      <summary>
-        Argonova Systems, Web Developer
-        <time>2007 - 2009</time>
-      </summary>
-      <ul>
-        <li>Developed an e-commerce platform which superseded the previous.</li>
-        <li>Developed several iterations of content management systems.</li>
-        <li>Created tools and workflow to optimize our development process.</li>
-        <li>Advocated web-standards and guidelines for accessibility.</li>
-        <li>Created a CSS-framework that we used to create sites quicker.</li>
-      </ul>
-    </details>
-  </section>
-  <section class='education'>
-    <h2>Education</h2>
-    <details open>
-      <summary>
-        John Bauergymnasiet, Upper Secondary School, The IT Programme
-        <time>2004 - 2007</time>
-      </summary>
-      <ul>
-        <li>Performed 15 weeks of workplace training.</li>
-        <li>Built a fully dynamic CMS with multi-language support.</li>
-        <li>Developed a collaborative network based text editor in C#.</li>
-        <li>Developed an e-commerce store.</li>
-        <li>Developed a web-based music database.</li>
-        <li>Designed and developed several minor websites.</li>
-      </ul>
-      <h3>Scholarships</h3>
-      <ul>
-        <li>Best IT student of 2005.</li>
-        <li>Best grades of the year 2007 (Male).</li>
-        <li>Project Work of the year 2007.</li>
-      </ul>
-    </details>
-  </section>
-  <section class='references'>
-    <h2>References</h2>
-    <p>Available upon request.</p>
-  </section>
-</main>
-
+			<p>I am mostly developing code in ruby and go, however I don't see a
+				problem with developing in any other language, the motto is: use the best
+				tool available.</p>
+		</section>
+		<section class='skills'>
+			<h2>Technical Skills</h2>
+			<dl>
+				<dt>Language:</dt>
+				<dd>Ruby, Go, Java, Python, JavaScript, C#, PHP</dd>
+				<dt>Database:</dt>
+				<dd>MongoDB, ElasticSearch, DynamoDB, MySQL, Redis</dd>
+				<dt>Framework:</dt>
+				<dd>Thrift, Sinatra, RoR, Express, AngularJS, Magento, WordPress</dd>
+				<dt>Tool:</dt>
+				<dd>Git, Unix (Linux/BSD/OSX), Docker, Ansible, Puppet, Amazon Web Services, Bash</dd>
+			</dl>
+		</section>
+		<section class='experiences'>
+			<h2>Experiences</h2>
+			<details open>
+				<summary>
+					Saltside, Software Developer
+					<time>2011 - current</time>
+				</summary>
+				<h3>Current</h3>
+				<ul>
+					<li>Main contributor of the core API and backend services.</li>
+					<li>Site reliability engineering.</li>
+					<li>Daily work with containers, continuous delivery and automated testing.</li>
+					<li>Create tools and utilities that makes the work more efficient.</li>
+					<li>Running a distributed system across four markets with millions of users.</li>
+					<li>Deploy service to orchestrate different deploys from various clients (Slack, CLI, Web).</li>
+				</ul>
+				<h3>Previous</h3>
+				<ul>
+					<li>Designed and implemented API:s both using JSON and thrift.</li>
+					<li>Worked in a small team to rewrite the system to a service oriented architecture.</li>
+					<li>Lead developer for the mobile web application.</li>
+					<li>Lead developer for the backend platform and API.</li>
+					<li>Extracted the mobile web application from the monolith increasing the ability to deliver new features.</li>
+					<li>Worked in a small team to deliver a monolithic classifieds site.</li>
+				</ul>
+			</details>
+			<details open>
+				<summary>
+					Firma Terje Larsen, Web Developer
+					<time>2010 - 2015</time>
+				</summary>
+				<ul>
+					<li>Developing modules and adjusting templates to increase sales in a web shop built with Magento.</li>
+					<li>Full-stack development of simpler company websites.</li>
+					<li>Customization and feature development for WordPress.</li>
+				</ul>
+			</details>
+			<details open>
+				<summary>
+					Webbhuset, Web Developer
+					<time>2009 - 2011</time>
+				</summary>
+				<ul>
+					<li>Developed modules for the e-commerce system Magento.</li>
+					<li>Built bridges between Magento and several ERP-systems (such as Navision).</li>
+					<li>Worked with markup and CSS.</li>
+				</ul>
+			</details>
+			<details open>
+				<summary>
+					Argonova Systems, Web Developer
+					<time>2007 - 2009</time>
+				</summary>
+				<ul>
+					<li>Developed an e-commerce platform which superseded the previous.</li>
+					<li>Developed several iterations of content management systems.</li>
+					<li>Created tools and workflow to optimize our development process.</li>
+					<li>Advocated web-standards and guidelines for accessibility.</li>
+					<li>Created a CSS-framework that we used to create sites quicker.</li>
+				</ul>
+			</details>
+		</section>
+		<section class='education'>
+			<h2>Education</h2>
+			<details open>
+				<summary>
+					John Bauergymnasiet, Upper Secondary School, The IT Programme
+					<time>2004 - 2007</time>
+				</summary>
+				<ul>
+					<li>Performed 15 weeks of workplace training.</li>
+					<li>Built a fully dynamic CMS with multi-language support.</li>
+					<li>Developed a collaborative network based text editor in C#.</li>
+					<li>Developed an e-commerce store.</li>
+					<li>Developed a web-based music database.</li>
+					<li>Designed and developed several minor websites.</li>
+				</ul>
+				<h3>Scholarships</h3>
+				<ul>
+					<li>Best IT student of 2005.</li>
+					<li>Best grades of the year 2007 (Male).</li>
+					<li>Project Work of the year 2007.</li>
+				</ul>
+			</details>
+		</section>
+		<section class='references'>
+			<h2>References</h2>
+			<p>Available upon request.</p>
+		</section>
+	</main>
 </body>
 </html>
